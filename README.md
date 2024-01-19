@@ -1,4 +1,4 @@
-Finger exercise to get back to Flutter
+Flutter UI desgin exercise
 
 
 ![image](https://github.com/samoz93/book_worm/assets/21069007/5b7d6e77-5e60-458f-962f-37c313cee4cc)
