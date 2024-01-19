@@ -28,7 +28,7 @@ class HeaderCarousel extends StatelessWidget {
 
             return PageView.builder(
               padEnds: false,
-              controller: PageController(viewportFraction: 0.8),
+              controller: PageController(viewportFraction: 0.3),
               itemBuilder: (_, i) {
                 final item = snapshot.data![i];
                 return Container(
@@ -43,7 +43,6 @@ class HeaderCarousel extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
-                  child: Text(item.name ?? ''),
                 );
               },
               itemCount: snapshot.data!.length,
