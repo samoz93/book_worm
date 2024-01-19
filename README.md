@@ -1,16 +1,19 @@
+Finger exercise to get back to Flutter
+
+
 # book_worm
 
-A new Flutter project.
+inside of .env folder create a json file for each environment `{ENV}.json` and fill it as such 
+```
+{
+  "RAPID_API_KEY": YOUR_KEY,
+  "RAPID_API_HOST": API_HOST,
+}
 
-## Getting Started
+```
+to run it 
+`flutter run`
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/samoz93/book_worm/assets/21069007/75f23d83-2bae-43a2-9221-5ec9ab749e13)
